@@ -1,3 +1,5 @@
+
+
 use('AirlineReservation')
 
 //Inserting BY One
@@ -12,6 +14,8 @@ db.passenger.insertOne(
   
 }  
 )
+
+
 
 
 //Inserting BY Many

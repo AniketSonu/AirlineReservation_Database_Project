@@ -1,9 +1,9 @@
 use("AirlineReservation")
 
-db.airlines.find({ airlineName: "AIRINDIA" }).explain("executionStats")
+db.passenger.find({ firstName: "Vivaan" }).explain("executionStats")
 
 
-db.airlines.getIndexes()
+db.passenger.getIndexes()
 
 
 

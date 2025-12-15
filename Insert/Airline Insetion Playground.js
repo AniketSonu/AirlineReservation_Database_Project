@@ -53,8 +53,3 @@ db.airlines.insertMany([
 ])
 
 
-//Retriving Without Timing DATA
-db.airlines.find(
-    {},
-    { timings: 0 }
-)
